@@ -1,8 +1,7 @@
 # ⚠️ If hosting under a repo path, use full URL (e.g. https://<github_username>.github.io/<repo_name>) or images won’t display correctly
-baseURL: https://toha.hugo-themes.com
-
-languageCode: en-us
-title: "John's Blog"
+baseURL: https://phenates.github.io
+languageCode: fr-fr
+title: "Stéphane Perfetti - Portfolio"
 
 # Use Hugo modules to add theme
 module:
@@ -26,14 +25,14 @@ languages:
     languageName: English
     title: "John's Blog"
     weight: 1
-  bn:
-    languageCode: bn
-    languageName: বাংলা
-    title: জনের ব্লগ
+  fr:
+    languageCode: fr
+    languageName: Francais
+    title: Stéphane Perfetti - Portfolio
     weight: 2
 
 # default language for the content
-defaultContentLanguage: en
+defaultContentLanguage: fr
 
 # Allow raw html in markdown file
 markup:
@@ -87,11 +86,11 @@ params:
     inverted: /images/site/inverted-logo.png
     favicon: /images/site/favicon.png
 
+  # Enable <Improve This Page> Button
   # GitHub repo of your site
-  gitRepo: https://github.com/hugo-themes/toha-example-site
-
+  # gitRepo: https://github.com/hugo-themes/toha-example-site
   # Default branch of your Git repo
-  gitBranch: main
+  # gitBranch: main
 
   # Configure the number of section title visible in the top navbar
   topNavbar:
@@ -109,16 +108,16 @@ params:
 
     # Enable and configure portfolio
     portfolio:
-      enable: true
+      enable: false
 
     # Enable and configure blog posts
     blog:
       enable: true
-      showAuthor: true # shows the author of post (defaults true)
+      showAuthor: false # shows the author of post (defaults true)
       # Share post on different social media
       shareButtons:
         facebook: true
-        twitter: true
+        twitter: false
         linkedin: true
         reddit: true
         whatsapp: true
@@ -322,7 +321,7 @@ params:
     template: footer.html
     # Show/hide navigation in the footer. Default is "true".
     navigation:
-      enable: true
+      enable: false
       # show custom menus in the footer
       customMenus: true
     # Show/hide "Contact Me" section in the footer. Default is "true".
@@ -330,7 +329,7 @@ params:
       enable: true
     # Show/hide credentials section in the footer. Default is "true".
     credentials:
-      enable: true
+      enable: false
 
     # Show/hide newsletter section in the footer. Default is "true".
     # Currently, it supports "mailchimp".
@@ -341,4 +340,4 @@ params:
 
     # Show/hide disclaimer notice in the footer. Default is "false".
     disclaimer:
-      enable: true
+      enable: false
