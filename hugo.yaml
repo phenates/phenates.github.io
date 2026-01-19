@@ -20,15 +20,15 @@ module:
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
-  en:
-    languageCode: en
-    languageName: English
-    title: "John's Blog"
-    weight: 1
   fr:
     languageCode: fr
     languageName: Francais
-    title: Stéphane Perfetti - Portfolio
+    title: "Stéphane Perfetti - Portfolio"
+    weight: 1
+  en:
+    languageCode: en
+    languageName: English
+    title: "Stéphane Perfetti - Portfolio"
     weight: 2
 
 # default language for the content

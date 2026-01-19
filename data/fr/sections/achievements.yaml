@@ -1,17 +1,17 @@
 # section information
 section:
-  name: Achievements
+  name: Achievements # Succès
   id: achievements
   enable: true
   weight: 10
-  showOnNavbar: true
+  showOnNavbar: false
   # Can optionally hide the title in sections
   # hideTitle: true
 
 # Your achievements achievements
 achievements:
-- title: Best Presenter
-  image: /images/sections/achievements/presenter.jpg
+- title: Trek du camp de base de l'Everest
+  image: /images/sections/achievements/EBC.jpg
   summary: Best presenter in the 2020 XYZ conference.
 - title: Champion
   image: /images/sections/achievements/sport.jpg
