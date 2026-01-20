@@ -1,5 +1,13 @@
 ---
+title: '{{ replace .Name "-" " " | title }}'
 date: '{{ .Date }}'
+description:
 draft: true
-title: '{{ replace .File.ContentBaseName "-" " " | title }}'
+tags: ["Basic", "Multi-lingual"]
+categories: ["Basic"]
+# menu:
+#   sidebar:
+#     name: 
+#     identifier: 
+#     weight: 10
 ---
