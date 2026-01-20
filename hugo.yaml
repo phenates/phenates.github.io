@@ -25,11 +25,11 @@ languages:
     languageName: Francais
     title: "Stéphane Perfetti - Portfolio"
     weight: 1
-  en:
-    languageCode: en
-    languageName: English
-    title: "Stéphane Perfetti - Portfolio"
-    weight: 2
+  # en:
+  #   languageCode: en
+  #   languageName: English
+  #   title: "Stéphane Perfetti - Portfolio"
+  #   weight: 2
 
 # default language for the content
 defaultContentLanguage: fr
