@@ -20,7 +20,7 @@ En tant qu'Administrateur Systèmes et Réseaux junior dans une entreprise banca
 - Installer et administrer un annuaire d'entreprise
 - Installer un système d'exploitation en version serveur
 
-{{< embed-pdf src="P05_Presentation_v2.pdf" >}}
+{{< embed-pdf src="P06_Presentation_v1.pdf" >}}
 
 <!-- <iframe src="P03_Presentation_v1.pdf#toolbar=0&navpanes=0" toolbar="0" navpanes="0" width="100%" height="700px"></iframe> -->
 
