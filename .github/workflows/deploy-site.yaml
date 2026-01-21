@@ -1,4 +1,4 @@
-name: Build and deploy to Github Pages
+name: Build to gh-pages branch
 
 # run when a commit is pushed to "main" branch
 on:
