@@ -13,7 +13,7 @@ description: Portfolio and personal blog of Stéphane Perfetti.
 # they will be separated by a divider from the main menus.
 customMenus:
 - name: "Curriculum-Vitæ"
-  url: "/files/CV_PERFETTI-Stephane_v26.2-SsPortfolio.pdf"
+  url: "/files/CV_PERFETTI-Stephane_v26.3.pdf"
   # specify whether to hide the menu item from top navbar or not.
   hideFromNavbar: false
   # specify whether to show the menu item in footer or not.

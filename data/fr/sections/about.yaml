@@ -20,24 +20,69 @@ designation: Administrateur Systèmes, Réseaux et Sécurité
 
 # a summary about you
 summary: |-
-  De l'Ingénierie Automobile à l' IT, après 20 ans passés à traquer les décibels dans
-  l'industrie automobile en tant qu'acousticien, j'ai décidé de suivre mon autre 
-  passion : l' IT et l'automatisation.
+  De l'Ingénierie Automobile à l' IT
 
-  Des premiers bidouillages autodidactes sur un Raspberry Pi à une infrastructure Proxmox
-  complète avec VLANs segmentés et domotique auto-hébergée, j'ai progressivement approfondi
-  et mis en œuvre les connaissances acquises en conditions réelles – la reconversion
-  professionnelle était le prolongement naturel de cet apprentissage pratique intensif.
-
-  Curieux de nature et touche-à-tout par passion, j'ai transformé mon homelab en terrain
-  d'expérimentation permanent et un environnement de production complet : virtualisation Proxmox/KVM,
-  containerisation Docker, architecture réseau avec VLANs segmentés, routage inter-VLAN, firewall,
-  services DNS/DHCP, reverse proxy Traefik avec certificats SSL/TLS Let's Encrypt, monitoring,
-  backups automatisés, installation domotique, et développement Python.
+  Après 20 ans passés dans l'ingénierie automobile en tant qu'acousticien à traquer les 
+  décibels, j'ai franchi le pas vers ma véritable passion : l'administration systèmes, 
+  réseaux et l'automatisation. Cette reconversion n'est pas un changement radical,
+  mais l'aboutissement d'années d'apprentissage pratique intensif mené en parallèle 
+  de ma carrière.
   
-  Aujourd'hui, je gère un homelab complet avec 10+ services en production, et je suis prêt à apporter cette expertise en environnement professionnel.
+  De la théorie à la pratique
+  
+  Mon parcours technique a débuté par des expérimentations autodidactes sur Raspberry Pi,
+  puis s'est progressivement structuré jusqu'à la conception et l'exploitation d'une
+  infrastructure Proxmox complète en conditions réelles. Cette démarche empirique – apprendre
+  en construisant, tester en production, documenter et optimiser – m'a permis d'acquérir une
+  maîtrise concrète bien au-delà des concepts théoriques. La certification professionnelle
+  RNCP Niveau 6 est venue formaliser et compléter ces compétences pratiques.
 
-  Ce qui me motive ? Transformer des concepts techniques en solutions concrètes et performantes en mettant mes compétences en résolution de problèmes complexes au service de l'administration systèmes et réseaux.
+  Un laboratoire grandeur nature
+
+  Mon homelab est bien plus qu'un terrain de jeu : c'est un véritable environnement de
+  production hébergeant 10+ services critiques. J'y ai déployé une infrastructure
+  complète : virtualisation Proxmox/KVM, conteneurisation Docker avec orchestration,
+  architecture réseau segmentée (VLANs, routage inter-VLAN, firewall), services essentiels
+  (DNS/DHCP), reverse proxy Traefik avec SSL/TLS automatisé via Let's Encrypt, supervision
+  et métriques, stratégie de sauvegardes automatisées, intégration domotique, et développement
+  d'outils Python sur mesure.
+  
+  Ce qui me caractérise
+  
+  Curieux de nature et rigoureux par formation, j'aborde chaque problématique technique avec
+  méthodologie : analyse, conception, implémentation, documentation et amélioration continue.
+  Ma force ? Transformer des concepts techniques en solutions opérationnelles, performantes
+  et maintenables. Mon expérience en gestion de projets complexes m'a également appris
+  l'importance de la documentation exhaustive, de la communication technique et du respect
+  des contraintes opérationnelles.
+  
+  Ma motivation
+  
+  Aujourd'hui, je suis prêt à mettre cette expertise technique et cette approche rigoureuse
+  au service d'environnements professionnels exigeants. Ce qui me motive profondément,
+  c'est de résoudre des problèmes complexes en concevant des infrastructures robustes,
+  sécurisées et évolutives – tout en maintenant la haute disponibilité qui fait la différence
+  entre un SI fonctionnel et un SI d'excellence.
+
+# summary: |-
+#   De l'Ingénierie Automobile à l' IT, après 20 ans passés à traquer les décibels dans
+#   l'industrie automobile en tant qu'acousticien, j'ai décidé de suivre mon autre 
+#   passion : l' IT et l'automatisation.
+
+#   Des premiers bidouillages autodidactes sur un Raspberry Pi à une infrastructure Proxmox
+#   complète avec VLANs segmentés et domotique auto-hébergée, j'ai progressivement approfondi
+#   et mis en œuvre les connaissances acquises en conditions réelles – la reconversion
+#   professionnelle était le prolongement naturel de cet apprentissage pratique intensif.
+
+#   Curieux de nature et touche-à-tout par passion, j'ai transformé mon homelab en terrain
+#   d'expérimentation permanent et un environnement de production complet : virtualisation Proxmox/KVM,
+#   containerisation Docker, architecture réseau avec VLANs segmentés, routage inter-VLAN, firewall,
+#   services DNS/DHCP, reverse proxy Traefik avec certificats SSL/TLS Let's Encrypt, monitoring,
+#   backups automatisés, installation domotique, et développement Python.
+  
+#   Aujourd'hui, je gère un homelab complet avec 10+ services en production, et je suis prêt à apporter cette expertise en environnement professionnel.
+
+#   Ce qui me motive ? Transformer des concepts techniques en solutions concrètes et performantes en mettant mes compétences en résolution de problèmes complexes au service de l'administration systèmes et réseaux.
 
 # your social links
 # give as many as you want. use font-awesome for the icons.

@@ -24,7 +24,7 @@ projects:
   # role: Owner
   timeline: "Fev 2024 - Fev 2025"
   # repo: https://github.com/tensorflow/tensorflow
-  url: "/posts"
+  url: "/tags/formation-openclassroom/"
   summary: Projets professionnalisants soutenue et validés.
   tags: ["formation", "systèmes", "réseaux"]
 
