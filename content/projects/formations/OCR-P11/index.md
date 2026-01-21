@@ -3,7 +3,7 @@ title: Sécurité & Architecture réseau
 description: "Sécurisation d'un réseau d'entreprise"
 date: 2026-01-19T20:50:43.729Z
 preview: ""
-draft: true
+draft: false
 tags: ["Projet", "Formation OpenClassRoom"]
 categories: ["Projet", "Formation OpenClassRoom"]
 ---

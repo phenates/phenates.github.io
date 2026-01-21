@@ -3,7 +3,7 @@ title: Services web sécurisés
 description: "Mettre en place des services web sécurisés."
 date: 2026-01-19T20:50:43.729Z
 preview: ""
-draft: true
+draft: false
 tags: ["Projet", "Formation OpenClassRoom"]
 categories: ["Projet", "Formation OpenClassRoom"]
 ---

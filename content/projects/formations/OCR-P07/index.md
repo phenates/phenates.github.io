@@ -3,7 +3,7 @@ title: Réseaux et équipements d'interconnexion
 description: "Configurez des services réseaux et des équipements d'interconnexion"
 date: 2026-01-19T20:50:43.729Z
 preview: ""
-draft: true
+draft: false
 tags: ["Projet", "Formation OpenClassRoom"]
 categories: ["Projet", "Formation OpenClassRoom"]
 ---

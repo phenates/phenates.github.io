@@ -3,7 +3,7 @@ title: Supervisez le SI d'une entreprise
 description: "Mise en place d'un système de supervision du SI"
 date: 2026-01-19T20:50:43.729Z
 preview: ""
-draft: true
+draft: false
 tags: ["Projet", "Formation OpenClassRoom"]
 categories: ["Projet", "Formation OpenClassRoom"]
 ---

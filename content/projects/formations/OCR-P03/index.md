@@ -3,7 +3,7 @@ title: Conception d'un réseau local
 description: "Conception et documentation d'un nouveau réseau local"
 date: 2026-01-19T20:50:43.729Z
 preview: ""
-draft: true
+draft: false
 tags: ["Projet", "Formation OpenClassRoom"]
 categories: ["Projet", "Formation OpenClassRoom"]
 ---
