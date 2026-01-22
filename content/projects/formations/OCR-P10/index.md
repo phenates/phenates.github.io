@@ -4,6 +4,11 @@ description: "Mise en place d'une nouvelle solution de sauvegarde"
 date: 2026-01-19T20:50:43.729Z
 preview: ""
 draft: false
+menu:
+  projectssidebar:
+    name: "Solution de sauvegarde"
+    identifier: ocr-p10
+    weight: 10
 tags: ["Projet", "Formation OpenClassRoom"]
 categories: ["Projet", "Formation OpenClassRoom"]
 ---

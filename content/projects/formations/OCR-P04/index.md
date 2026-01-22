@@ -4,6 +4,11 @@ description: "Déployez d'une architecture 3-tiers: web / SQL / DNS"
 date: 2026-01-19T20:50:43.729Z
 preview: ""
 draft: false
+menu:
+  projectssidebar:
+    name: "Architecture n-tiers"
+    identifier: ocr-p04
+    weight: 4
 tags: ["Projet", "Formation OpenClassRoom"]
 categories: ["Projet", "Formation OpenClassRoom"]
 ---

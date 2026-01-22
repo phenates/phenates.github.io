@@ -2,7 +2,7 @@
 section:
   name: Compétences
   id: skills
-  enable: false
+  enable: true
   weight: 2
   showOnNavbar: false
   filter: true
@@ -19,6 +19,8 @@ buttons:
   filter: "language"
 - name: Container
   filter: "container"
+- name: Systemes
+  filter: "systemes"
 - name: Others
   filter: "others"
 
@@ -54,10 +56,10 @@ skills:
   categories: ["basic"]
   url: "https://prometheus.io/"
 
-- name: Linux
+- name: Linux (Debian/Ubuntu)
   logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
-  categories: ["others"]
+  summary: "Administration avancée de systèmes Linux avec usage quotidien en environnement homelab. Maîtrise de la configuration système, gestion des utilisateurs/permissions, et troubleshooting."
+  categories: ["systemes"]
 
 - name: Git
   logo: /images/sections/skills/git.png

@@ -4,6 +4,11 @@ description: "Gérez une migration vers le cloud"
 date: 2026-01-19T20:50:43.729Z
 preview: ""
 draft: false
+menu:
+  projectssidebar:
+    name: "Migration cloud"
+    identifier: ocr-p13
+    weight: 13
 tags: ["Projet", "Formation OpenClassRoom"]
 categories: ["Projet", "Formation OpenClassRoom"]
 ---

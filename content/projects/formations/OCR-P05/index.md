@@ -4,6 +4,11 @@ description: "Mettre en place des services web sécurisés."
 date: 2026-01-19T20:50:43.729Z
 preview: ""
 draft: false
+menu:
+  projectssidebar:
+    name: "Services web sécurisés"
+    identifier: ocr-p05
+    weight: 5
 tags: ["Projet", "Formation OpenClassRoom"]
 categories: ["Projet", "Formation OpenClassRoom"]
 ---

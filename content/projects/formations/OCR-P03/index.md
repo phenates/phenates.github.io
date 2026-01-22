@@ -4,6 +4,11 @@ description: "Conception et documentation d'un nouveau réseau local"
 date: 2026-01-19T20:50:43.729Z
 preview: ""
 draft: false
+menu:
+  projectssidebar:
+    name: "Conception d'un réseau local"
+    identifier: ocr-p03
+    weight: 3
 tags: ["Projet", "Formation OpenClassRoom"]
 categories: ["Projet", "Formation OpenClassRoom"]
 ---

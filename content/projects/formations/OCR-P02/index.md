@@ -4,6 +4,11 @@ description: "Gérez et priorisez les demandes des utilisateurs, GLPI, référen
 date: 2026-01-19T20:50:43.729Z
 preview: ""
 draft: false
+menu:
+  projectssidebar:
+    name: "GLPI & Suivi des incidents"
+    identifier: ocr-p02
+    weight: 2
 tags: ["Projet", "Formation OpenClassRoom"]
 categories: ["Projet", "Formation OpenClassRoom"]
 ---

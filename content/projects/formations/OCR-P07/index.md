@@ -4,6 +4,11 @@ description: "Configurez des services réseaux et des équipements d'interconnex
 date: 2026-01-19T20:50:43.729Z
 preview: ""
 draft: false
+menu:
+  projectssidebar:
+    name: "Réseaux et équipements d'interconnexion"
+    identifier: ocr-p07
+    weight: 7
 tags: ["Projet", "Formation OpenClassRoom"]
 categories: ["Projet", "Formation OpenClassRoom"]
 ---

@@ -4,6 +4,11 @@ description: "Sécurisation d'un réseau d'entreprise"
 date: 2026-01-19T20:50:43.729Z
 preview: ""
 draft: false
+menu:
+  projectssidebar:
+    name: "Sécurité & Architecture réseau"
+    identifier: ocr-p11
+    weight: 11
 tags: ["Projet", "Formation OpenClassRoom"]
 categories: ["Projet", "Formation OpenClassRoom"]
 ---

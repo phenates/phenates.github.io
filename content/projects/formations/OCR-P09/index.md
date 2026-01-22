@@ -4,6 +4,11 @@ description: "Gérez le parc informatique d'une PME"
 date: 2026-01-19T20:50:43.729Z
 preview: ""
 draft: false
+menu:
+  projectssidebar:
+    name: "Géstion parc informatique"
+    identifier: ocr-p09
+    weight: 9
 tags: ["Projet", "Formation OpenClassRoom"]
 categories: ["Projet", "Formation OpenClassRoom"]
 ---

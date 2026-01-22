@@ -4,6 +4,11 @@ description: "Mise en place d'un système de supervision du SI"
 date: 2026-01-19T20:50:43.729Z
 preview: ""
 draft: false
+menu:
+  projectssidebar:
+    name: "Supervision SI"
+    identifier: ocr-p08
+    weight: 8
 tags: ["Projet", "Formation OpenClassRoom"]
 categories: ["Projet", "Formation OpenClassRoom"]
 ---

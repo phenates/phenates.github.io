@@ -4,6 +4,11 @@ description: "Raccorder une entité et ses postes de travail au SI de votre entr
 date: 2026-01-19T20:50:43.729Z
 preview: ""
 draft: false
+menu:
+  projectssidebar:
+    name: "Administration SI multi-sites"
+    identifier: ocr-p06
+    weight: 6
 tags: ["Projet", "Formation OpenClassRoom"]
 categories: ["Projet", "Formation OpenClassRoom"]
 ---
