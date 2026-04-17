@@ -8,6 +8,7 @@ menu:
   projectssidebar:
     name: "Solution de sauvegarde"
     identifier: ocr-p10
+    parent: formations
     weight: 10
 tags: ["Projet", "Formation OpenClassRoom"]
 categories: ["Projet", "Formation OpenClassRoom"]

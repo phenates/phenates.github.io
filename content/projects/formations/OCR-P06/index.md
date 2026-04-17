@@ -8,6 +8,7 @@ menu:
   projectssidebar:
     name: "Administration SI multi-sites"
     identifier: ocr-p06
+    parent: formations
     weight: 6
 tags: ["Projet", "Formation OpenClassRoom"]
 categories: ["Projet", "Formation OpenClassRoom"]

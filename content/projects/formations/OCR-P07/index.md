@@ -8,6 +8,7 @@ menu:
   projectssidebar:
     name: "Réseaux et équipements d'interconnexion"
     identifier: ocr-p07
+    parent: formations
     weight: 7
 tags: ["Projet", "Formation OpenClassRoom"]
 categories: ["Projet", "Formation OpenClassRoom"]

@@ -8,6 +8,7 @@ menu:
   projectssidebar:
     name: "Géstion parc informatique"
     identifier: ocr-p09
+    parent: formations
     weight: 9
 tags: ["Projet", "Formation OpenClassRoom"]
 categories: ["Projet", "Formation OpenClassRoom"]

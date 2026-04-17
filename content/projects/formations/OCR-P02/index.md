@@ -8,6 +8,7 @@ menu:
   projectssidebar:
     name: "GLPI & Suivi des incidents"
     identifier: ocr-p02
+    parent: formations
     weight: 2
 tags: ["Projet", "Formation OpenClassRoom"]
 categories: ["Projet", "Formation OpenClassRoom"]

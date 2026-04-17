@@ -8,6 +8,7 @@ menu:
   projectssidebar:
     name: "Migration cloud"
     identifier: ocr-p13
+    parent: formations
     weight: 13
 tags: ["Projet", "Formation OpenClassRoom"]
 categories: ["Projet", "Formation OpenClassRoom"]

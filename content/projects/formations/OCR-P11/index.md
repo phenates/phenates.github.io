@@ -8,6 +8,7 @@ menu:
   projectssidebar:
     name: "Sécurité & Architecture réseau"
     identifier: ocr-p11
+    parent: formations
     weight: 11
 tags: ["Projet", "Formation OpenClassRoom"]
 categories: ["Projet", "Formation OpenClassRoom"]

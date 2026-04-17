@@ -8,6 +8,7 @@ menu:
   projectssidebar:
     name: "Services web sécurisés"
     identifier: ocr-p05
+    parent: formations
     weight: 5
 tags: ["Projet", "Formation OpenClassRoom"]
 categories: ["Projet", "Formation OpenClassRoom"]

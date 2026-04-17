@@ -8,6 +8,7 @@ menu:
   projectssidebar:
     name: "Conception d'un réseau local"
     identifier: ocr-p03
+    parent: formations
     weight: 3
 tags: ["Projet", "Formation OpenClassRoom"]
 categories: ["Projet", "Formation OpenClassRoom"]

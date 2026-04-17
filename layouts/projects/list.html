@@ -1,0 +1,94 @@
+{{ define "navbar" }}
+{{ partial "navigators/navbar.html" . }}
+{{ end }}
+
+{{ define "sidebar" }}
+<section class="sidebar-section" id="sidebar-section">
+  <div class="sidebar-holder">
+    <div class="sidebar" id="sidebar">
+      <form class="mx-auto" method="get" action="{{ "/search" | relLangURL }}">
+        <input type="text" name="keyword" value="" placeholder="{{ i18n "search" }}" data-search="" id="search-box" />
+      </form>
+      <div class="sidebar-tree">
+        <ul class="tree" id="tree">
+          <li id="list-heading"><a href="{{ "/projects/" | relLangURL }}" data-filter="all">{{ i18n "projects" }}</a></li>
+          <div class="subtree">
+            {{ partial "navigators/sidebar.html" (dict "menuName" "projectssidebar" "menuItems" site.Menus.projectssidebar "ctx" .) }}
+          </div>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ define "content" }}
+<section class="content-section" id="content-section">
+  <div class="content container-fluid" id="content">
+
+    {{ if .Parent.IsHome }}
+    {{/* Page racine /projects/ : affiche les sections (catégories) */}}
+    <div class="title text-center mx-auto" style="margin: 40px 0;">
+      <h1>{{ .Title }}</h1>
+    </div>
+    <div class="container-fluid post-card-holder" id="post-card-holder">
+      {{ range .Sections }}
+      <div class="post-card">
+        <div class="card">
+          <div class="card-head">
+            <a href="{{ .RelPermalink }}" class="post-card-link">
+              {{ $hero := partial "helpers/get-hero.html" (dict "context" . "width" "500x") }}
+              <img class="card-img-top" src="{{ $hero.RelPermalink }}" alt="Hero Image" loading="lazy">
+            </a>
+          </div>
+          <div class="card-body">
+            <a href="{{ .RelPermalink }}" class="post-card-link">
+              <h5 class="card-title">{{ .Title }}</h5>
+              <p class="card-text post-summary">{{ .Description }}</p>
+            </a>
+          </div>
+          <div class="card-footer">
+            <a href="{{ .RelPermalink }}" class="float-end btn btn-outline-info btn-sm">{{ i18n "read" }}</a>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+
+    {{ else }}
+    {{/* Sous-section (ex: /projects/formations/) : affiche les projets individuels */}}
+    {{ $hero := partial "helpers/get-hero.html" (dict "context" . "width" "1200x") }}
+    <div class="hero-area col-sm-12" id="hero-area"
+      style='background-image: url({{ $hero.RelPermalink }});'>
+    </div>
+    <div style="margin-bottom: 80px;"></div>
+    <div class="title text-center mx-auto" style="margin-bottom: 40px;">
+      <h1>{{ .Page.Title }}</h1>
+    </div>
+    {{ if .Content }}
+    <div class="intro-content">
+      <div class="container">
+        {{ .Content }}
+      </div>
+    </div>
+    {{ end }}
+
+    <div class="container-fluid post-card-holder" id="post-card-holder">
+      {{ $posts := where .RegularPagesRecursive "Layout" "!=" "search" }}
+      {{ $posts = where $posts "Params.hidden" "!=" true }}
+      {{ $numShow := site.Params.features.pagination.maxPostsPerPage | default 12 }}
+      {{ $paginator := .Paginate $posts $numShow }}
+      {{ range $paginator.Pages }}
+      {{ if .Layout }}{{ else }}
+      {{ partial "cards/post.html" . }}
+      {{ end }}
+      {{ end }}
+    </div>
+    <div class="paginator">
+      {{ partial "pagination.html" . }}
+    </div>
+    {{ end }}
+
+  </div>
+</section>
+{{ end }}

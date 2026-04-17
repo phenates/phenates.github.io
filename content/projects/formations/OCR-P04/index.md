@@ -8,6 +8,7 @@ menu:
   projectssidebar:
     name: "Architecture n-tiers"
     identifier: ocr-p04
+    parent: formations
     weight: 4
 tags: ["Projet", "Formation OpenClassRoom"]
 categories: ["Projet", "Formation OpenClassRoom"]

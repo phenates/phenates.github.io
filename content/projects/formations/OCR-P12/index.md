@@ -8,6 +8,7 @@ menu:
   projectssidebar:
     name: "Sécurité Windows & AD"
     identifier: ocr-p12
+    parent: formations
     weight: 12
 tags: ["Projet", "Formation OpenClassRoom"]
 categories: ["Projet", "Formation OpenClassRoom"]

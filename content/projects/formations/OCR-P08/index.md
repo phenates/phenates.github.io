@@ -8,6 +8,7 @@ menu:
   projectssidebar:
     name: "Supervision SI"
     identifier: ocr-p08
+    parent: formations
     weight: 8
 tags: ["Projet", "Formation OpenClassRoom"]
 categories: ["Projet", "Formation OpenClassRoom"]
