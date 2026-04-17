@@ -27,9 +27,9 @@ summary: |-
   réseaux et l'automatisation. Cette reconversion n'est pas un changement radical,
   mais l'aboutissement d'années d'apprentissage pratique intensif mené en parallèle 
   de ma carrière.
-  
+
   De la théorie à la pratique
-  
+
   Mon parcours technique a débuté par des expérimentations autodidactes sur Raspberry Pi,
   puis s'est progressivement structuré jusqu'à la conception et l'exploitation d'une
   infrastructure Proxmox complète en conditions réelles. Cette démarche empirique – apprendre
@@ -46,18 +46,18 @@ summary: |-
   (DNS/DHCP), reverse proxy Traefik avec SSL/TLS automatisé via Let's Encrypt, supervision
   et métriques, stratégie de sauvegardes automatisées, intégration domotique, et développement
   d'outils Python sur mesure.
-  
+
   Ce qui me caractérise
-  
+
   Curieux de nature et rigoureux par formation, j'aborde chaque problématique technique avec
   méthodologie : analyse, conception, implémentation, documentation et amélioration continue.
   Ma force ? Transformer des concepts techniques en solutions opérationnelles, performantes
   et maintenables. Mon expérience en gestion de projets complexes m'a également appris
   l'importance de la documentation exhaustive, de la communication technique et du respect
   des contraintes opérationnelles.
-  
+
   Ma motivation
-  
+
   Aujourd'hui, je suis prêt à mettre cette expertise technique et cette approche rigoureuse
   au service d'environnements professionnels exigeants. Ce qui me motive profondément,
   c'est de résoudre des problèmes complexes en concevant des infrastructures robustes,
@@ -66,7 +66,7 @@ summary: |-
 
 # summary: |-
 #   De l'Ingénierie Automobile à l' IT, après 20 ans passés à traquer les décibels dans
-#   l'industrie automobile en tant qu'acousticien, j'ai décidé de suivre mon autre 
+#   l'industrie automobile en tant qu'acousticien, j'ai décidé de suivre mon autre
 #   passion : l' IT et l'automatisation.
 
 #   Des premiers bidouillages autodidactes sur un Raspberry Pi à une infrastructure Proxmox
@@ -79,7 +79,7 @@ summary: |-
 #   containerisation Docker, architecture réseau avec VLANs segmentés, routage inter-VLAN, firewall,
 #   services DNS/DHCP, reverse proxy Traefik avec certificats SSL/TLS Let's Encrypt, monitoring,
 #   backups automatisés, installation domotique, et développement Python.
-  
+
 #   Aujourd'hui, je gère un homelab complet avec 10+ services en production, et je suis prêt à apporter cette expertise en environnement professionnel.
 
 #   Ce qui me motive ? Transformer des concepts techniques en solutions concrètes et performantes en mettant mes compétences en résolution de problèmes complexes au service de l'administration systèmes et réseaux.
@@ -87,17 +87,17 @@ summary: |-
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
-- name: Email
-  icon: "fas fa-envelope"
-  url: "stephaneperfetti@hotmail.com"
+  - name: Email
+    icon: "fas fa-envelope"
+    url: "contact@stephane-perfetti.fr"
 
-- name: LinkedIn
-  icon: "fab fa-linkedin"
-  url: "https://www.linkedin.com/in/stéphane-perfetti/"
+  - name: LinkedIn
+    icon: "fab fa-linkedin"
+    url: "https://www.linkedin.com/in/stéphane-perfetti/"
 
-- name: Github
-  icon: "fab fa-github"
-  url: "https://www.github.com/phenates"
+  - name: Github
+    icon: "fab fa-github"
+    url: "https://www.github.com/phenates"
 
 # - name: Stackoverflow
 #   icon: "fab fa-stack-overflow"
@@ -123,8 +123,8 @@ socialLinks:
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
 resourceLinks:
-- title: "Mon Curriculum Vitæ"
-  url: "files/CV_PERFETTI-Stephane.pdf"
+  - title: "Mon Curriculum Vitæ"
+    url: "files/CV_PERFETTI-Stephane.pdf"
 
 # Show your badges
 # You can show your verifiable certificates from https://www.credly.com.

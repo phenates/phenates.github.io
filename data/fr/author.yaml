@@ -6,7 +6,7 @@ greeting: "Bonjour, je suis"
 image: "images/author/me.jpeg"
 # give your some contact information. they will be used in the footer
 contactInfo:
-  email: "stephaneperfetti@hotmail.com"
+  email: "contact@stephane-perfetti.fr"
   # phone: "+0123456789"
   github: phenates
   linkedin: stéphane-perfetti
@@ -14,8 +14,8 @@ contactInfo:
 
 # some summary about what you do
 summary:
-  - Administrateur Systèmes • Réseaux • Sécurité 
-  - Reconversion Acousticien → Administrateur IT 
-  - Self-hosting • Automatisation • Open-source 
-  - Sysadmin • Architecture réseau • DevOps 
-  - Disponible immédiatement 
+  - Administrateur Systèmes • Réseaux • Sécurité
+  - Self-hosting • Automatisation • Open-source
+  - Sysadmin • Architecture réseau • DevOps
+  - Reconversion Acousticien → Administrateur IT
+  - Disponible immédiatement
